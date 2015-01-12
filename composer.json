@@ -1,0 +1,25 @@
+{
+    "name": "gong023/tiny_config_php",
+    "authors": [
+        {
+            "name": "gong023",
+            "email": "gon.gong.gone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "1.*",
+        "mockery/mockery": "0.9.*",
+        "peridot-php/peridot": "1.9.0",
+        "peridot-php/leo": "1.2.0",
+        "peridot-php/peridot-prophecy-plugin": "~1.0",
+        "peridot-php/peridot-code-coverage-reporters": "1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TinyConfig\\": "src"
+        }
+    }
+}
