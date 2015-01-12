@@ -20,4 +20,3 @@ return function (EventEmitterInterface $eventEmitter) {
         $reporter->addDirectoryToWhitelist(__DIR__ . '/src')->addDirectoryToWhitelist(__DIR__ . '/spec');
     });
 };
-

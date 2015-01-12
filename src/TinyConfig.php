@@ -21,7 +21,7 @@ class TinyConfig
     }
 
     /**
-     * @param string $key
+     * @param  string                   $key
      * @return mixed
      * @throws TinyConfigEmptyException
      */
@@ -35,7 +35,7 @@ class TinyConfig
     }
 
     /**
-     * @param string $key
+     * @param  string $key
      * @return bool
      */
     public static function has($key)
@@ -71,7 +71,7 @@ class TinyConfig
 
     public static function deleteAll()
     {
-        foreach(self::getKeys() as $key) {
+        foreach (self::getKeys() as $key) {
             self::delete($key);
         }
     }
